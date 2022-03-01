@@ -17,4 +17,15 @@ const connectDB = async () => {
     }
 }
 
+const login = async () => {
+    try{
+        const createLogin = (`CREATE TABLE tblLogin(username VARCHAR(10),password VARCHAR(10))`);
+        console.log(createLogin,"Table tblLogin created!");
+    }
+    
+    catch(err){
+        console.log(err);
+    }
+}
 module.exports = connectDB
+module.exports = login
