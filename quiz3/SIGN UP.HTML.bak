@@ -1,0 +1,117 @@
+<html>
+<head>
+<video autoplay loop class="back-video"muted plays-inline>
+<source src="video (4).mp4" type="video/mp4">
+</video>
+<title>Sign Up Form</title>
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+	<script src="app.js"></script>
+<link rel="stylesheet" href="styel.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script type="text/javascript">
+function myfunction(){
+  var x=document.getElementById("my Input");
+  var y=document.getElementById("hide1");
+  var z=document.getElementById("hide2");
+  if(x.type=='password')
+  {
+  x.type="text";
+  y.style.display="inline-block";
+  z.style.display="none";
+  }
+  else
+  {
+  x.type="password";
+  y.style.display="none";
+  z.style.display="inline-block";
+  }
+  }
+  function myfunction1(){
+  var x=document.getElementById("my Input1");
+  var y=document.getElementById("hide3");
+  var z=document.getElementById("hide4");
+  if(x.type=='password')
+  {
+  x.type="text";
+  y.style.display="inline-block";
+  z.style.display="none";
+  }
+  else
+  {
+  x.type="password";
+  y.style.display="none";
+  z.style.display="inline-block";
+  }
+  }
+  </script>
+
+<body class="bodycss1"ll>
+
+
+<div class="header">
+
+<div class="sign-up-form">
+<img src="user.png">
+ <h1></h1>
+ <h2>Sign Up Now</h2>
+ <form action="project.py" method="post">
+ <span class="input-field"><i class="fas fa-envelope"></i>
+ <input type="email"class="input-box" placeholder="Email" name="email" required />
+ <span style="display:inline"> </span>
+ </span>
+
+ <span class="psw-box">
+ <i class="i2 fas fa-lock"></i>
+ <input id="my Input" type="password" class="input-box" placeholder="Password" required />
+
+<span style="display:inline" class="eye" onclick="myfunction()">
+<i id="hide1" class="i1 fa fa-eye"></i>
+ <i id="hide2" class="i1 fa fa-eye-slash"></i> 
+ 
+</span></span>
+<span class="psw-box">
+<i class="i2 fas fa-lock"></i>
+<input id="my Input1" type="password"class="input-box" placeholder="confirm Password">
+
+<span style="display:inline" class="eye" onclick="myfunction1()">
+<i id="hide3" class="i1 fa fa-eye"></i>
+ <i id="hide4" class="i1 fa fa-eye-slash"></i> 
+ 
+</span></span>
+ 
+ <p><span><input type="checkbox"></span>I agree to the terms and conditions</p>
+ <button type="submit" class="signup-btn">Sign Up</button>
+ <hr>
+ <p> Do you have an account ?<a href="SIGN IN.html">Sign in</a></p> 
+<!--<hr>
+<p class="or">OR</p>
+ Sign up with
+            
+            <p class="social-text"></p>
+            <div class="social-media">
+			<a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a class="social-icon" href="#" >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              
+              
+            </div>-->
+              
+              
+           
+</div>
+</div>
+ </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "connect": "^3.7.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.2.4",
+    "router": "^1.3.6"
+  },
+  "name": "quizzlet",
+  "description": "quizzlet Website is about a Quiz Website containing a category of Quizzes and every quiz include Multiple Choice Questions (MCQs) such that the quizzes are in a specific order.",
+  "version": "1.0.0",
+  "main": "quizzlet.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manvik2606/quizzlet-1.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "manan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manvik2606/quizzlet-1/issues"
+  },
+  "homepage": "https://github.com/manvik2606/quizzlet-1#readme"
+}

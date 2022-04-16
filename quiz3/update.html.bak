@@ -1,0 +1,68 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="styel.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://themes-pixeden.com/font-demos/7-stroke/pe-7s-user.css">
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="project.py" method="post">
+<div style="background-color:silver" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                   
+                    <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i style="font-size:25px;"class="far">&#xf2bd;</i>
+                                <span style=" font-size:20px; color:#4f4e4e;">rushangdgandhi@gmail.com <b class="caret"></b></span>
+                            </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Update Password</a></li>
+							<li><a href="#">Sign Out</a></li>
+                            
+                            
+                          </ul>
+                    </li>
+               </ul>
+              
+
+            </div>
+
+
+<div style="background-image: url(what ro do.jpg); background-size: 100% 100%;; height:100%; background-repeat:no-repeat!important;">
+
+<div style="width:32%; margin-left:35%; ">
+<br><br><br><br>
+
+	<div style="color:white"><h2 style="margin-top:0px!important"><b>Update Password</b></h2></div>		
+	
+	<div class="border" style="border:4px solid silver; padding:30px;">
+ <span class="input-field">
+ <input type="Password"  class="input-box1" placeholder="Current Password" name="Current Password" required /><br>
+ <span style="display:inline"> </span>
+ </span>
+
+ <span class="psw-box">
+ 
+ <input id="my Input" type="Password" class="input-box1" placeholder="New Password" required /><br>
+
+<span style="display:inline" class="eye" onclick="myfunction()">
+
+ 
+</span></span>
+<span class="psw-box">
+
+<input id="my Input1" type="Password"class="input-box1" placeholder="Re-enter New Password">
+<br><br>
+ <button type="submit" class="SaveUpdate-btn">Update</button>
+</div>
+</div>
+</div>
+</body>
+</html>

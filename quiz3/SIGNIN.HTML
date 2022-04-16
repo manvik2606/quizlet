@@ -1,0 +1,92 @@
+<<html>
+  <head>
+  <video autoplay loop class="back-video"muted plays-inline>
+  <source src="video (4).mp4" type="video/mp4">
+  </video>
+  <title>Sign in Form</title>
+  <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"
+      ></script>
+    <script src="app.js"></script>
+  <link rel="stylesheet" href="styel.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <script type="text/javascript">
+  function myfunction(){
+    var x=document.getElementById("my Input");
+    var y=document.getElementById("hide1");
+    var z=document.getElementById("hide2");
+    if(x.type=='password')
+    {
+    x.type="text";
+    y.style.display="block";
+    z.style.display="none";
+    }
+    else
+    {
+    x.type="password";
+    y.style.display="none";
+    z.style.display="block";
+    }
+    }
+    </script>
+  <body class="bodycss1">
+  
+  <div class="sign-up-form">
+  <img src="user.png">
+   <h1></h1>
+   <h2>Sign in Now</h2>
+   <form action="Dashboard/DASHBOARD.HTML" method="post">
+  <span class="input-field"><i  style="left:6px; " class="fas fa-envelope"></i>
+   <input type="email"class="input-box" style="top:1px " placeholder="Email" name="email" required />
+   <span style="display:inline"> </span>
+   </span>
+  
+   <span class="psw-box">
+   <i style="left:6px; " class="i2 fas fa-lock"></i>
+   <input id="my Input" type="password" style="top:1px " class="input-box" placeholder="Password" required />
+  
+  <span style="display:inline" class="eye" onclick="myfunction()">
+  <i id="hide1" class="i1 fa fa-eye"></i>
+   <i id="hide2" class="i1 fa fa-eye-slash"></i> 
+   
+  </span></span>
+   
+   <div  class="remember"><span><input type="checkbox"></span>Remember me
+   <span  style="margin-left:80px; color:#4481eb; text-decoration:underline;" class="psw">Forgot password?<a href="#"></a></span></div> 
+    
+  
+   <button type="submit" class="signup-btn">Sign In</button>
+   <!--<hr>
+   <p> Do you have an account ?<a href="#">Sign in</a></p> 
+  
+  <p class="or">OR</p>
+   Sign in with
+              
+              <p class="social-text"></p>
+              <div class="social-media">
+        <a href="#" class="social-icon">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a class="social-icon" href="#" >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                
+                
+              </div>-->
+        
+                
+                
+             
+  </div>
+  
+   </form>
+  </body>
+  </html>
+  

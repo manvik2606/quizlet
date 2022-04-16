@@ -1,0 +1,387 @@
+{
+    "question1" :
+        {
+            "question number" : "1",
+            "quizname" : "GK",
+            "quizID" : "1",
+            "question" : "Which one of the following river flows between Vindhyan and Satpura ranges?",
+            "a" : "Narmada",
+            "b":"Mahanadi",
+            "c":"Son",
+            "d":"Netravati",
+            "answer":"Narmada"
+        },
+
+    "question2" :
+        {
+            "question number" : "2",
+            "quizname" : "GK",
+            "quizID" : "1",
+            "question" : "The Central Rice Research Station is situated in?",
+            "a" : "Chennai",
+            "b":"Cuttack",
+            "c":"Bangalore",
+            "d":"Quilon",
+            "answer":"Cuttack"
+        },
+
+    "question3" :
+        {
+            "question number" : "3",
+            "quizname" : "GK",
+            "quizID" : "1",
+            "question" : "Who among the following wrote Sanskrit grammar?",
+            "a" : "Kalidasa",
+            "b":"Charak",
+            "c":"Panini",
+            "d":"Aryabhatt",
+            "answer":"Panini"
+        },
+
+    "question4" :
+        {
+            "question number" : "4",
+            "quizname" : "GK",
+            "quizID" : "1",
+            "question" : "Which among the following headstreams meets the Ganges in last?",
+            "a" : "Alaknanda",
+            "b":"Pindar",
+            "c":"Mandakini",
+            "d":"Bhagirathi",
+            "answer":"Bhagirathi"
+        },
+
+    "question5" : 
+        {
+            "question number" : "5",
+            "quizname" : "GK",
+            "quizID" : "1",
+            "question" : "The metal whose salts are sensitive to light is?",
+            "a" : "Zinc",
+            "b":"Silver",
+            "c":"Copper",
+            "d":"Aluminium",
+            "answer":"Silver"
+        },
+
+    "question6" : 
+        {
+            "question number" : "1",
+            "quizname" : "History",
+            "quizID" : "2",
+            "question" : "The territory of Porus who offered strong resistance to Alexander was situated between the rivers of ",
+            "a" : "Sutlej and Beas",
+            "b":"Jhelum and Chenab",
+            "c":"Ravi and Chenab",
+            "d":"Ganga and Yamuna",
+            "answer":"Jhelum and Chenab"
+        },
+    "question7" : 
+        {
+            "question number" : "2",
+            "quizname" : "History",
+            "quizID" : "2",
+            "question" : "Under Akbar, the Mir Bakshi was required to look after ",
+            "a" : "military affairs",
+            "b":"the state treasury",
+            "c":"the royal household",
+            "d":"the land revenue system",
+            "answer":"military affairs"
+        },
+    "question8" : 
+        {
+            "question number" : "3",
+            "quizname" : "History",
+            "quizID" : "2",
+            "question" : "The trident-shaped symbol of Buddhism does not represent ",
+            "a" : "Nirvana ",
+            "b":"Sangha",
+            "c":"Buddha",
+            "d":"Dhamma",
+            "answer":"Nirvana"
+        },
+    "question9" : 
+        {
+            "question number" : "4",
+            "quizname" : "History",
+            "quizID" : "2",
+            "question" : "The theory of economic drain of India during British imperialism was propounded by ",
+            "a" : "Jawaharlal Nehru",
+            "b":"Dadabhai Naoroji",
+            "c":"R.C. Dutt",
+            "d":"M.K. Gandhi",
+            "answer":"Dadabhai Naoroji"
+        },
+
+    "question10" : 
+        {
+            "question number" : "5",
+            "quizname" : "History",
+            "quizID" : "2",
+            "question" : "The treaty of Srirangapatna was signed between Tipu Sultan and ",
+            "a" : "Robert Clive ",
+            "b":"Cornwallis ",
+            "c":"Dalhousie ",
+            "d":"Warren Hastings",
+            "answer":"Cornwallis"
+        },
+
+    "question11" : 
+        {
+            "question number" : "1",
+            "quizname" : "Sports",
+            "quizID" : "3",
+            "question" : "Former Australian captain Mark Taylor has had several nicknames over his playing career. Which of the following was NOT one of them?",
+            "a" : "Tubby",
+            "b":"Stodge",
+            "c":"Helium Bat",
+            "d":"Stumpy",
+            "answer":"Stumpy"
+        },
+
+    "question12" : 
+        {
+            "question number" : "2",
+            "quizname" : "Sports",
+            "quizID" : "3",
+            "question" : "Which was the 1st non Test playing country to beat India in an international match?",
+            "a" : "Canada",
+            "b":"Sri Lanka",
+            "c":"Zimbabwe",
+            "d":"East Africa",
+            "answer":"Sri Lanka"
+        },
+
+    "question13" : 
+        {
+            "question number" : "3",
+            "quizname" : "Sports",
+            "quizID" : "3",
+            "question" : "Track and field star Carl Lewis won how many gold medals at the 1984 Olympic games?",
+            "a" : "Two",
+            "b":"Three",
+            "c":"Four",
+            "d":"Eight",
+            "answer":"Four"
+        },
+
+    "question14" : 
+        {
+            "question number" : "4",
+            "quizname" : "Sports",
+            "quizID" : "3",
+            "question" : "Who was the first Indian to win the World Amateur Billiards title?",
+            "a" : "Geet Sethi",
+            "b":"Wilson Jones",
+            "c":"Michael Ferreira",
+            "d":"Manoj Kothari",
+            "answer":"Wilson James"
+        },
+
+    "question15" : 
+        {
+            "question number" : "5",
+            "quizname" : "Sports",
+            "quizID" : "3",
+            "question" : "Who is the first Indian woman to win an Asian Games gold in 400m run?",
+            "a" : "M.L.Valsamma",
+            "b":"P.T.Usha",
+            "c":"Kamaljit Sandhu",
+            "d":"K.Malleshwari",
+            "answer":"Kamaljit Sandhu"
+        },
+    "question16" : 
+        {
+            "question number" : "1",
+            "quizname" : "Politics",
+            "quizID" : "4",
+            "question" : "The Parliament of India cannot be regarded as a sovereign body because",
+            "a" : "it can legislate only on subjects entrusted to the Centre by the Constitution",
+            "b":"it has to operate within the limits prescribed by the Constitution",
+            "c":"the Supreme Court can declare laws passed by parliament as unconstitutional if they contravene the provisions of the Constitution",
+            "d":"All of the above",
+            "answer":"All of the above"
+        },
+
+     "question17" : 
+        {
+            "question number" : "2",
+            "quizname" : "Politics",
+            "quizID" : "4",
+            "question" : "The members of the Rajya Sabha are elected by",
+            "a" : "the people",
+            "b":"Lok Sabha",
+            "c":"elected members of the legislative assembly",
+            "d":"elected members of the legislative council",
+            "answer":"elected members of the legislative assembly"
+        },
+
+    "question18" : 
+        {
+            "question number" : "3",
+            "quizname" : "Politics",
+            "quizID" : "4",
+            "question" : "The members of the panchayat are",
+            "a" : "nominated by the district officer",
+            "b":"the electorates of the respective territorial constituencies",
+            "c":"nominated by local self-government minister of the state",
+            "d":"nominated by the block development organization",
+            "answer":"the electorates of the respective territorial constituencies"
+        },
+
+    "question19" : 
+        {
+            "question number" : "4",
+            "quizname" : "Politics",
+            "quizID" : "4",
+            "question" : "The power to decide an election petition is vested in the",
+            "a" : "Parliament",
+            "b":"Supreme Court",
+            "c":"High courts",
+            "d":"Election Commission",
+            "answer":"High courts"
+        },
+
+    "question20" : 
+        {
+            "question number" : "5",
+            "quizname" : "Politics",
+            "quizID" : "4",
+            "question" : "The Parliament of India can make use of the residuary powers",
+            "a" : "at all times",
+            "b":"only during national emergency",
+            "c":"during national emergency as well as constitutional emergency as well in a state",
+            "d":"None of the above",
+            "answer":"at all times"
+        },
+
+        
+        
+    "question21" : 
+        {
+            "question number" : "1",
+            "quizname" : "Science",
+            "quizID" : "5",
+            "question" : "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+            "a" : "Oxygen",
+            "b":"Hydrogen sulphide",
+            "c":"Casrbon dioxide",
+            "d":"Nitrogen",
+            "answer":"Hydrogen sulphide"
+        },
+    "question22" : 
+        {
+            "question number" : "2",
+            "quizname" : "Science",
+            "quizID" : "5",
+            "question" : "Which of the following is a non metal that remains liquid at room temperature?",
+            "a" : "Phosphorus",
+            "b":"Bromine",
+            "c":"Chlorine",
+            "d":"Helium",
+            "answer":"Bromine"
+        },
+    "question23" :
+        {
+            "question number" : "3",
+            "quizname" : "Science",
+            "quizID" : "5",
+            "question" : "Chlorophyll is a naturally occurring chelate compound in which central metal is ",
+            "a" : "copper",
+            "b":"magnesium",
+            "c":"iron",
+            "d":"calcium",
+            "answer":"magnesium"
+        },
+    "question24" :
+        {
+            "question number" : "4",
+            "quizname" : "Science",
+            "quizID" : "5",
+            "question" : "Which of the following is used in pencils?",
+            "a" : "Graphite",
+            "b":"Silicon",
+            "c":"Charcoal",
+            "d":"Phosphorous",
+            "answer":"Graphite"
+        },
+    "question25" :
+        {
+            "question number" : "5",
+            "quizname" : "Science",
+            "quizID" : "5",
+            "question" : "Which of the following metals forms an amalgam with other metals?",
+            "a" : "Tin",
+            "b":"Mercury",
+            "c":"Lead",
+            "d":"Zinc",
+            "answer":"Mercury"
+        },
+
+
+    "question26" :
+        {
+            "question number" : "1",
+            "quizname" : "Aptitude",
+            "quizID" : "6",
+            "question" : "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+            "a" : "120 metres",
+            "b":"180 metres",
+            "c":"324 metres",
+            "d":"150 metres",
+            "answer":"150 metres"
+        },
+
+    "question27" :
+        {
+            "question number" : "2",
+            "quizname" : "Aptitude",
+            "quizID" : "6",
+            "question" : "A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:",
+            "a" : "45 km/hr",
+            "b":"50 km/hr",
+            "c":"54 km/hr",
+            "d":"55 km/hr",
+            "answer":"50 km/hr"
+        },
+
+    "question28" :
+        {
+            "question number" : "3",
+            "quizname" : "Aptitude",
+            "quizID" : "6",
+            "question" : "The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can cross in 30 seconds, is:",
+            "a" : "200 m",
+            "b":"225 m",
+            "c":"245 m",
+            "d":"250 m",
+            "answer":"245 m"
+        },
+
+    "question29" :
+        {
+            "question number" : "4",
+            "quizname" : "Aptitude",
+            "quizID" : "6",
+            "question" : "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:",
+            "a" : "1:3",
+            "b":"3:2",
+            "c":"3:4",
+            "d":"None of these",
+            "answer":"3:2"
+        },
+
+    "question30" : 
+        {
+            "question number" : "5",
+            "quizname" : "Aptitude",
+            "quizID" : "6",
+            "question" : "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+            "a" : "120 m",
+            "b":"240 m",
+            "c":"300 m",
+            "d":"None of these",
+            "answer":"240 m"
+        }
+
+}

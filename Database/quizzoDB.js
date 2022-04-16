@@ -1,21 +1,19 @@
-const mongoose = require('mongoose');
 
-const connectDB = async () => {
-    try{
-        // mongodb connection string
-        const con = await mongoose.connect("mongodb://localhost:27017/quizzo", {
-            useNewUrlParser: true,   //mongodb://localhost/dbname
-            useUnifiedTopology: true,  //support new connection engine
-            useFindAndModify: false, //depricated
-            useCreateIndex: true
-        })
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/quizzlet";
 
-        console.log(`MongoDB connected : ${con.connection.host}`);
-    }catch(err){
-        console.log(err);
-        process.exit(1);
-    }
-}
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  var dbo = db.db("corporation");
+  data = open("data.json");
+  var myobj ={ data};
+  dbo.collection("quizzletdb").insertOne(myobj, function(err, res) {
+    if (err) throw err;
+    console.log("1 document inserted");
+    db.close();
+  });
+});
+
 
 const login = async () => {
     try{
@@ -27,5 +25,10 @@ const login = async () => {
         console.log(err);
     }
 }
-module.exports = connectDB
+
+//const data = async () => {
+//    try{
+//        const questions = (`INSERT INTO tblLogin VALUES(z$data.json')`);
+//    }
+//}
 module.exports = login
